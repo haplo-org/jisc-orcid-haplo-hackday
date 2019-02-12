@@ -1,0 +1,22 @@
+{
+  "pluginName": "jiscdemo_orcid_hackday",
+  "pluginAuthor": "Haplo Services",
+  "pluginVersion": 1,
+  "displayName": "Jiscdemo ORCID Hackday",
+  "displayDescription": "",
+  "installSecret": "6bc4d2c2d8f47084a875599e9eba44c5eadab8c4",
+  "apiVersion": 4,
+  "depend": [
+      "hres_schema",
+      "hres_orcid_obtain",
+      "hres_repo_pubmed"
+    ],
+  "load": [
+      "js/jiscdemo_orcid_hackday.js"
+    ],
+  "respond": [
+      "/do/jiscdemo-orcid-hackday",
+      "/api/demojisc-hackday"
+    ],
+  "allowAnonymousRequests": true
+}

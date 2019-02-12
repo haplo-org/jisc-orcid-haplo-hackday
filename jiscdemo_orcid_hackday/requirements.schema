@@ -1,0 +1,17 @@
+
+# --------- Types -------------------------------
+
+type std:type:person as Person
+
+# --------- Attributes --------------------------
+
+attribute dc:attribute:author as Author
+
+attribute std:attribute:email as Email
+attribute hres:attribute:research-institute as ResearchInstitute
+attribute hres:attribute:student-id as StudentId
+attribute hres:attribute:orcid as ORCID
+attribute hres:attribute:digital-object-identifier-doi as DOI
+attribute hres:attribute:issn as ISSN
+attribute hres:attribute:pubmed-id as PubmedID
+
