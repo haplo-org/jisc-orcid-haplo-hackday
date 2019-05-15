@@ -3,15 +3,22 @@
 
 type std:type:person as Person
 
+type hres:type:person:external-researcher as ExternalResearcher
+type hres:type:person:researcher as Researcher
+type hres:type:person:staff as Staff
+type hres:type:research-institute:university as University
+
 # --------- Attributes --------------------------
 
 attribute dc:attribute:author as Author
 
 attribute std:attribute:email as Email
+attribute std:attribute:job-title as JobTitle
+
 attribute hres:attribute:research-institute as ResearchInstitute
 attribute hres:attribute:student-id as StudentId
 attribute hres:attribute:orcid as ORCID
 attribute hres:attribute:digital-object-identifier-doi as DOI
 attribute hres:attribute:issn as ISSN
 attribute hres:attribute:pubmed-id as PubmedID
-
+attribute hres:attribute:abstract as Abstract
